@@ -8,6 +8,6 @@ function findLargestNum(num1, num2, num3) {
     }
 }
 
-findLargestNum(5, -3, 16)
+findLargestNum(5, -3, 16);
 
-findLargestNum(-3, -5, -22.5)
+findLargestNum(-3, -5, -22.5);

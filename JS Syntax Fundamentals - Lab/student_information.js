@@ -3,4 +3,4 @@ function studentInformation(name,age,grade) {
 
 }
 
-studentInformation('John', 15, 5.54678)
+studentInformation('John', 15, 5.54678);
