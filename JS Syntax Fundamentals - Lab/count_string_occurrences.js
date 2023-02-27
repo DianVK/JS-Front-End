@@ -1,5 +1,5 @@
 function wordsCounter(sentence,searchedWord) {
-    let words = sentence.plit(' ');
+    let words = sentence.split(' ');
     let counter = 0;
     for (let word of words) {
         if (word === searchedWord) {
