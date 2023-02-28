@@ -1,6 +1,6 @@
 function multiplication(number) {
-    for (num = 0; num < 11; num++)
-        console.log(`${number} * ${num} = ${number * num}`)
+    for (num = 1; num < 11; num++)
+        console.log(`${number} X ${num} = ${number * num}`)
 
 }
 
