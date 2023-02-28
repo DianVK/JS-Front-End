@@ -15,7 +15,7 @@ function cooking(number,...operations) {
         } else if (currentOperation === "fillet") {
             number = number * 0.80
         } 
-         console.log(number.toFixed(1))
+         console.log(number)
     }
     
 }
