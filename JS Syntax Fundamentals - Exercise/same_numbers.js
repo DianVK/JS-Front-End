@@ -1,5 +1,5 @@
 function sameNumbers(number) {
-    numbers = number.toString()
+    let numbers = number.toString()
     let output = "true"
     let last_num = parseInt(numbers[0])
     let numbers_sum = parseInt(numbers[0])
@@ -17,4 +17,4 @@ function sameNumbers(number) {
     
 }
 
-sameNumbers(1234)
+sameNumbers(2222222)
