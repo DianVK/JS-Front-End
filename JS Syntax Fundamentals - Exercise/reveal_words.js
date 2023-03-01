@@ -11,7 +11,4 @@ function fitWord(words,sentence) {
     console.log(...sentence)
 }
 
-
-
-
 fitWord('great','softuni is ***** place for learning new programming languages')
