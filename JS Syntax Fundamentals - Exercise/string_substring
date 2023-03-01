@@ -1,0 +1,18 @@
+function substring(searchedWord,text) {
+    text = text.split(" ")
+    let found = false
+    for (const word of text) {
+        if (word.toLowerCase() === searchedWord) {
+            console.log(searchedWord)
+            found = true
+            
+        }
+    }
+    if (found === false) {
+        console.log(`${searchedWord} not found!`) 
+    }
+}
+
+substring('python','JavaScript is the best programming language')
+
+substring('javascript','JavaScript is the best programming language')
